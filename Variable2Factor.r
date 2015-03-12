@@ -1,3 +1,6 @@
+#15.03.12
+#code in R to convert our variables into factors
+
 #sample data
 myData <- data.frame(A=rep(1:2, 3), B=rep(1:3, 2), Pulse=20:25)
 
