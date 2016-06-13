@@ -7,3 +7,7 @@ as.Date(as.POSIXct(value, origin="1970-01-01"))
 
 # the date with hours:mins:secs  "2016-06-09 23:30:27 CEST"
 as.POSIXct(value, origin="1970-01-01")
+
+
+#REF: 
+#"Handling date-times in R" by Cole Beck, August 30, 2012.
