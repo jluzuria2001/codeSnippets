@@ -32,3 +32,10 @@ awk -vFS="" -vOFS="" '{$13=$13","}1' rcv2p-t1.log > rcv_2p-t1.log
 # we can use sed command with following syntax:
 
 $ sed 's/^/#/' file.txt
+
+
+
+
+# Delete all the rows starting with a specific pattern, 
+# i.e., "01:" in this case
+$ sed "/^01:/ d" < inFile.txt > outFile.txt
